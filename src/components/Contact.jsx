@@ -36,6 +36,18 @@ const Contact = () => {
   return (
     <>
     <section className="bg-[#1a1a1a] text-white px-4 py-12 md:px-10 lg:px-20">
+      <div className="text-center mb-12">
+    <p className="text-yellow-400 font-semibold">Visit Our Shop</p>   
+  <h2 className="text-3xl md:text-4xl font-bold mt-2 group relative inline-block">
+  Our <span className="relative z-10">Location</span> 
+  <span className="absolute left-1/2 bottom-0 top-11 h-1 bg-yellow-400 transition-all duration-500 ease-in-out -translate-x-1/2 w-[60px] group-hover:w-full"></span>
+</h2>
+<p 
+style={{color:"#71717b"}}
+className="text-gray-400 max-w-2xl mx-auto mt-9">         
+Conveniently located in Denton, TX:
+  </p>
+   </div>
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10">
         {/* Left Info Panel */}
        <div className="w-full lg:w-2/5 bg-[#2a2a2a] rounded-2xl p-6 lg:p-10">
